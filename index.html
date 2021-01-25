@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YUNA KWON</title>
+    <meta name="discription" content="Portfolio for passionate developer Yuna">
+    <meta name="author" content="Yuna">
+
+    <link rel="icon" type="image/png" href="imgs/favicon2.png">
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/2ce4018d5a.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img class="img" src="imgs/favicon4.png" alt="fabcon" width="30px">
+            <a class="logo" href="#">YUNA</a>
+        </div>
+
+        <ul class="navbar__menu">
+            <li class="navbar__menu_item active" data-link="#home">Home</li>
+            <li class="navbar__menu_item" data-link="#about">About</li>
+            <li class="navbar__menu_item" data-link="#work">Project</li>
+            <li class="navbar__menu_item" data-link="#testimonials">Blog</li>
+            <li class="navbar__menu_item" data-link="#contact">Contact</li>
+        </ul>
+
+
+        <!--Toggle Button-->
+        <button class="navbar__toggle-btn">
+            <i class="fab fa-gratipay"></i>
+        </button>
+
+
+    </nav>
+    <section id="home">
+        <div class="home__container">
+            <h1 class="home__title"> <br><br><br><br></h1>
+            <h2 class="home__disription"> <br><br></h2>
+
+            <button class="home_contact" data-link="#contact">CONTACT ME</button>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>ABOUT ME</h1>
+        <p> 권유나 (Female)<br>
+            1993.09.27(+)<br>
+            (Mobile)010.5847.1880<br>
+            yunang1880@naver.com
+        </p> <br><br>
+
+        <img src="imgs/profile1.JPG" alt="Yuna's profile photo" class="home_avatar">
+
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fas fa-running"></i>
+                </div>
+                <h2 class="major__title">Who?</h2>
+                <div class="major__description">
+                    '세상에 건강한 영향을 미칠 수 있는 사람'
+                    사용자 '수천명'에게 신나고 편리한 서비스를 제공하면서 그들의 생활에 긍정적인 영향을 끼칠 수 있는 개발자가 되고자 합니다.
+                    정체되어있지 않고 더 발전하기 위해
+                    항상 노력합니다.
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">Front-end</h2>
+                <div class="major__description">
+                    HTML5, CSS, Javascript <br>
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h2 class="major__title">Back-end</h2>
+                <div class="major__description">
+                    Java, mysql, Oracle, <br>
+                    JDBC, Spring, Survlet, Mybatis <br>
+                </div>
+            </div>
+
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <img src="imgs/favicon3.png" width="30px" alt="explain" class="job__logo">
+                <div class="job__description">
+                    <p class="job__name">beat camp</p>
+                    <p class="job__period">6months</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <div class="section__container">
+                <h1>PROJECT</h1>
+                <h3>More details about my projects ⇊ </h3>
+                <div class="work__categories">
+                    <button class="category__btn selected" data-filter="*">All<span class="category__count">8</span></button>
+                    <button class="category__btn" data-filter="back-end">Back-end<span class="category__count">3</span>
+                    </button>
+                    <button class="category__btn" data-filter="front-end">Front-end<span class="category__count">4</span>
+                    </button>
+                    <button class="category__btn" data-filter="learning">Learning<span class="category__count">2</span>
+                    </button>
+                </div>
+
+                <div class="work__projects">
+                    <!-- 위의 버튼 클릭하면 data filter 값에 따라서 데이터 타입에 해당하는 것들 보여주기. -->
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="back-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="back-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="back-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="back-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="front-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="front-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="front-end">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="learning">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yuna1880/Login_Project" class="project" target="blank" data-type="learning">
+                        <img class="project__img" src="imgs/porjects/console.png" alt="Login_Project" width="200px">
+                        <div class="project__deiscription">
+                            <h3>Login Project</h3>
+                            <span>Console project with Java and Oracle (JDBC)</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <!--
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attribute</h2>
+            <p>Passion for learning new technologies, Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed
+            </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>99%</span>
+                            <div>
+                                <div class="skill__bar">
+                                    <div class="skill_value"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_description">
+                            <span>CSS</span>
+                            <span>99%</span>
+                            <div>
+                                <div class="skill__bar">
+                                    <div class="skill_value"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_description">
+                            <span>Javascript</span>
+                            <span>99%</span>
+                            <div>
+                                <div class="skill__bar">
+                                    <div class="skill_value"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_description">
+                            <span>Java</span>
+                            <span>99%</span>
+                            <div>
+                                <div class="skill__bar">
+                                    <div class="skill_value"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill_description">
+                            <span>Oracle</span>
+                            <span>99%</span>
+                            <div>
+                                <div class="skill__bar">
+                                    <div class="skill_value"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skillset__right">
+                <div class="tools">
+                    <h3 class="skillset__title">Tools</h3>
+                    <ul class="tools__list">
+                        <li><span>Eclipse</span></li>
+                        <li><span>Oracle</span></li>
+                        <li><span>Github</span></li>
+                        <li><span>Bracket</span></li>
+                        <li><span>Photoshop</span></li>
+                    </ul>
+                </div>
+                <div class="etc">
+                    <h3 class="skillset__title">Etc</h3>
+                    <ul class="etc__list">
+                        <li><span>Github</span></li>
+                        <li><span>Photoshop</span></li>
+                        <li><span>Illustration</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Blog? -->
+    <section id="testimonials" class="section">
+        <h1>BLOG</h1>
+        <h3>See how I am learning a programming</h3>
+        <div class="testimonials">
+            <div class="testimonial_inside">
+
+                <div class="testimonial__speech-bubble">
+                    <p>
+                        Yuna is great coworker! I would recommend her anyone who wants a passionate developer!
+                    </p>
+                    <p class="name"><a href="">Yuna</a>/Yuna company</p>
+                </div>
+                <img src="imgs/testimonial/profile2.JPG" alt="People" class="testimonial__avatar" width="150px">
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="testimonial_inside">
+                <img src="imgs/testimonial/profile2.JPG" alt="People" class="testimonial__avatar" width="150px">
+                <div class="testimonial__speech-bubble">
+                    <p>
+                        Yuna is great coworker! I would recommend her anyone who wants a passionate developer!
+                    </p>
+                    <p class="name"><a href="">Yuna</a>/Yuna company</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's work together!</h1>
+        <h2 class="contact__email">yunang1880@naver.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/yuna1880" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://blog.naver.com/yunang1880" target="_blank">
+                <i class="fas fa-splotch"></i>
+            </a>
+        </div>
+        <p class="contact__rights">❀ Yuna Kwon 2021 - All rights reserved ❀
+        </p>
+    </section>
+    
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-chevron-circle-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
