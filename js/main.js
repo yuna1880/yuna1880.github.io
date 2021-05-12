@@ -125,3 +125,7 @@ function scrollIntoView(selector) {
         behavior: "smooth"
     });
 }
+
+function goResume() {
+    location.href='https://www.notion.so/yunakwon/Yuna-Kwon-48da6316e26d4e15a80dce844655f9d0';
+}

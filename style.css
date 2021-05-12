@@ -167,6 +167,14 @@ p {
     padding: 5px;
 }
 
+.home_resume {
+    color: beige;
+    font-weight: var(--weight-medium);
+    border: 2px solid var(--color-beige);
+    border-radius: 4px;
+    padding: 5px;
+}
+
 /*Section common*/
 .major {
     width: 230px;
